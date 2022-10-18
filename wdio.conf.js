@@ -1,5 +1,5 @@
 
-const video = require('wdio-video-reporter');
+// const video = require('wdio-video-reporter');
 exports.config = {
     //
     // ====================
@@ -39,9 +39,9 @@ exports.config = {
 
            //  './test/specs/JsonTestscript1.js',
             // './test/specs/ReportsNormal.js',
-           './test/specs/AddnormalTicket.js',
+          // './test/specs/AddnormalTicket.js',
                 //'./test/specs/spicejetnew.js',
-              // './test/specs/AddAnimals.js'  
+               './test/specs/AddAnimals.js'  
     ],
 
     suites:{
@@ -175,23 +175,23 @@ exports.config = {
     // see also: https://webdriver.io/docs/dot-reporter
     // reporters: ['spec'],
     
-        //     reporters: [['allure', {
-        //     outputDir: 'allure-results',
-        //     disableWebdriverStepsReporting: true,
-        //     disableWebdriverScreenshotsReporting: false,
-        // }]],
+            reporters: [['allure', {
+            outputDir: 'allure-results',
+            disableWebdriverStepsReporting: true,
+            disableWebdriverScreenshotsReporting: false,
+        }]],
         
-        reporters: [
-            [video, {
-              saveAllVideos: false,       // If true, also saves videos for successful test cases
-              videoSlowdownMultiplier: 3, // Higher to get slower videos, lower for faster videos [Value 1-100]
-            }],
-            ['allure', {
-              outputDir: 'allure-results',
-              disableWebdriverStepsReporting: true,
-              disableWebdriverScreenshotsReporting: true,
-            }],
-          ],
+        // reporters: [
+        //     [video, {
+        //       saveAllVideos: false,       // If true, also saves videos for successful test cases
+        //       videoSlowdownMultiplier: 3, // Higher to get slower videos, lower for faster videos [Value 1-100]
+        //     }],
+        //     ['allure', {
+        //       outputDir: 'allure-results',
+        //       disableWebdriverStepsReporting: true,
+        //       disableWebdriverScreenshotsReporting: true,
+        //     }],
+        //   ],
     //
     // Options to be passed to Mocha.
     // See the full list at http://mochajs.org/
