@@ -1,0 +1,19 @@
+[
+    {
+        "username":"admin",
+        "password":"Test@123",
+        "aname" :"deer",
+        "aimg":"C:/Users/BHARATI/OneDrive/Desktop/ZOO MGMT/ZMS IMAGES/img1.jpg",
+        "acage":"D345",
+        "afeed":"H187",
+        "abreed":"Indian",
+        "adesc":"Fastest Animal",
+        "visitorname":"Govinda",
+        "noadults":"5",
+        "nochildren":"4"
+  
+
+
+    }
+    
+]

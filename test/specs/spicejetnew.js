@@ -1,0 +1,17 @@
+describe("spicejet",async()=>{
+    it("ticket booking",async()=>{
+       await browser.url("https://www.spicejet.com/")
+       await browser.maximizeWindow()
+       //await browser.$("//div[@class='css-1dbjc4n r-b5h31w r-95jzfe']//div[text()='AGR']").click()
+       await browser.$("//div[@data-testid='to-testID-origin']").click()
+       await browser.$("//div[text()='AGR']").click()
+       await browser.$("//div[@data-testid='to-testID-destination']").click()
+       await browser.$("//div[text()='AMD']").click()
+       await browser.$("//div[text()='Departure Date']").click()
+       await browser.$("//div[@data-testid='undefined-month-October-2022']/following::div[@data-testid='undefined-calendar-day-23'][1]").click()
+       await browser.$("//div[text()='Return Date']").click()
+       await browser.$("//div[text()='November ']/following::div[@data-testid='undefined-calendar-day-3'][1]").click()
+       await browser.$("//div[text()='Students']").click()
+       await browser.$("//div[text()='Search Flight']").click()
+    })
+})

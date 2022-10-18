@@ -1,0 +1,32 @@
+Interview Questions
+
+1. Where is your automation backend located? (Use arrow keys)
+>Ans. On my local machine
+  In the cloud using Experitest
+  In the cloud using Sauce Labs
+  In the cloud using Browserstack or Testingbot or LambdaTest or a different service
+  I have my own Selenium cloud
+
+2. Where is your automation backend located? On my local machine
+? Which framework do you want to use? (Use arrow keys)
+Ans. mocha
+  jasmine
+  cucumber
+
+3. Do you want to use a compiler? (Use arrow keys)
+  Babel (https://babeljs.io/)
+  TypeScript (https://www.typescriptlang.org/)   
+> No!
+
+4. Where are your test specs located? (./test/specs/**/*.js) 
+
+5. Do you want WebdriverIO to autogenerate some test files? Yes
+6.  Do you want to use page objects (https://martinfowler.com/bliki/PageObject.html)? Yes
+7.  Where are your page objects located? ./test/pageobjects/**/*.js
+8. Do you want to use page objects (https://martinfowler.com/bliki/PageObject.html)? Yes
+9. Where are your page objects located? ./test/pageobjects/**/*.js
+10. Which reporter do you want to use? spec
+11.  Do you want to add a plugin to your test setup? 
+12.Do you want to add a service to your test setup? chromedriver
+13. What is the base url? http://localhost    
+14.Do you want me to run `npm install` (Y/n) 
