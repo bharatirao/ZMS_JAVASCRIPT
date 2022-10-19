@@ -2,30 +2,13 @@
 class AddnormalTicketPage
 {
     
-//  get Admin()
-//  {
-//   return $("//a[text()='Admin']/ancestor::div[@id='bs-example-navbar-collapse-1']//a[text()='Admin']")
-//  }
-  // get userName()
-  // {
-  //   return $("//input[@id='username']");
-  // }
-
-  // get passWord()
-  // {
-  //   return $("//input[@id='password']");
-  // }
-
-  // get submitButton()
-  // {
-  //   return $("//button[@id='form_submit']");
-  // }
-
+// 
   get dashboard()
     {
         return $("//span[.='Dashboard'][1]")
     }
     
+   
 get NormalTicket()
 {
   return $("//div[@class='sidebar-menu']//ul[@id='menu']//a//span[text()='Normal Ticket']")

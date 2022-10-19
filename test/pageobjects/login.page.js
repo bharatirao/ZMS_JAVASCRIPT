@@ -31,8 +31,8 @@ class LoginPage extends Page {
         await this.btnSubmit.click();
     }
 
-    /**object
-     * overwrite specific options to adapt it to page 
+    /**
+     * overwrite specific options to adapt it to page object
      */
     open () {
         return super.open('login');

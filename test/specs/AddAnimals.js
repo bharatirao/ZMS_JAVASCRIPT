@@ -25,12 +25,9 @@ describe("Zoo mgmt App",async()=>
     {
         it("fetching thru jason",async()=>{
          await $("//input[@id='username']").setValue(username);
-        // await loginPage.userName.setValue(username);
-       await $("//input[@id='password']").setValue(password);
-    //    await loginPage.password.setValue(password);
-       await $("//button[@id='form_submit']").click()
-    //    await loginPage.submitButton.click();
-    await expect(browser).toHaveTitleContaining("Zoo Management System || Dashboard")
+         await $("//input[@id='password']").setValue(password);
+         await $("//button[@id='form_submit']").click()
+        await expect(browser).toHaveTitleContaining("Zoo Management System || Dashboard")
     })
 })
 

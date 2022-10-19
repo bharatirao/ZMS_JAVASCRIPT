@@ -1,7 +1,8 @@
 
-// const video = require('wdio-video-reporter');
+const video = require('wdio-video-reporter');
 exports.config = {
-    //
+
+
     // ====================
     // Runner Configuration
     // ====================
@@ -23,25 +24,25 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-     //'./test/specs/**/*.js',
-    //  './test/specs/example.e2e.js',
-    //  './test/specs/testscript1.js',
-      
-       //'./test/specs/ZooTestScript1.js',
-        //'./test/specs/ZooTestScript2.js',
+        // './test/specs/**/*.js',
+        // './test/specs/ZooTestScript1.js',
+        // './test/specs/ZooTestScript2.js',
         // './test/specs/ZooTestScript3.js',
-    //   './test/specs/amazon.js',
-    //     './test/specs/skillrary.js',
-          //  './test/specs/ProjectRelatedConcepts.js',
-         //'./test/specs/default.js',
-            //'./test/specs/loginusingjason.js',
-          //  './test/specs/spicejet.js',
+        // './test/specs/AddAnimals.js',
+        // './test/specs/AddnormalTicket.js',
+        // './test/specs/ReportsNormal.js',
+           './test/specs/SearchNormalTicket.js',
+        // './test/specs/FetchDatafrmExcel.js',
+        // './test/specs/loginScript.js',
+        // './test/specs/ProjectRelatedConcepts.js',
+        // './test/specs/skillrary.js',
+        // './test/specs/spicejetnew.js',
+        // './test/specs/spicejet.js',
+        // './test/specs/testscript1.js',
+        // './test/specs/example.e2e.js',
+        // './test/specs/default.js',
+        // './test/specs/amazon.js'
 
-           //  './test/specs/JsonTestscript1.js',
-            // './test/specs/ReportsNormal.js',
-          // './test/specs/AddnormalTicket.js',
-                //'./test/specs/spicejetnew.js',
-               './test/specs/AddAnimals.js'  
     ],
 
     suites:{
@@ -69,13 +70,12 @@ exports.config = {
     // from the same test should run tests.
     //
     maxInstances: 10,
-    //
+    //c
     // If you have trouble getting all important capabilities together, check out the
     // Sauce Labs platform configurator - a great tool to configure your capabilities:
     // https://saucelabs.com/platform/platform-configurator
     //
-    capabilities: [
-        {
+    capabilities: [{
     
         // maxInstances can get overwritten per capability. So if you have an in-house Selenium
         // grid with only 5 firefox instances available you can make sure that not more than
@@ -94,16 +94,7 @@ exports.config = {
         // it is possible to configure which logTypes to include/exclude.
         // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
         // excludeDriverLogs: ['bugreport', 'server'],
-    }
-
-    // {
-        // maxInstances: 5,
-        // //
-        // browserName: 'chromiumedge',
-        // acceptInsecureCerts: true
-    // }
-],
-    
+    }],
     //
     // ===================
     // Test Configurations
@@ -173,25 +164,25 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
-    // reporters: ['spec'],
+    reporters: ['spec'],
+    // reporters: [['allure', {
+    //     outputDir: 'allure-results',
+    //     disableWebdriverStepsReporting: true,
+    //     disableWebdriverScreenshotsReporting: false,
+    // }]],
     
-            reporters: [['allure', {
-            outputDir: 'allure-results',
-            disableWebdriverStepsReporting: true,
-            disableWebdriverScreenshotsReporting: false,
-        }]],
-        
-        // reporters: [
-        //     [video, {
-        //       saveAllVideos: false,       // If true, also saves videos for successful test cases
-        //       videoSlowdownMultiplier: 3, // Higher to get slower videos, lower for faster videos [Value 1-100]
-        //     }],
-        //     ['allure', {
-        //       outputDir: 'allure-results',
-        //       disableWebdriverStepsReporting: true,
-        //       disableWebdriverScreenshotsReporting: true,
-        //     }],
-        //   ],
+    // reporters: [
+    //     [video, {
+    //       saveAllVideos: false,       // If true, also saves videos for successful test cases
+    //       videoSlowdownMultiplier: 3, // Higher to get slower videos, lower for faster videos [Value 1-100]
+    //     }],
+    //     ['allure', {
+    //       outputDir: './_results_/allure-raw',
+    //       disableWebdriverStepsReporting: true,
+    //       disableWebdriverScreenshotsReporting: true,
+    //     }],
+    //   ],
+    
     //
     // Options to be passed to Mocha.
     // See the full list at http://mochajs.org/
@@ -293,16 +284,10 @@ exports.config = {
      * @param {Boolean} result.passed    true if test has passed, otherwise false
      * @param {Object}  result.retries   informations to spec related retries, e.g. `{ attempts: 0, limit: 0 }`
      */
-    afterTest:
-
-    // function(test, context, { error, result, duration, passed, retries }) {
+    // afterTest: function(test, context, { error, result, duration, passed, retries }) {
     // },
-        async function (step, scenario, { error, duration, passed }, context) {
-        if (error) {
-          await browser.takeScreenshot();
-        }
-      },
-    
+
+
     /**
      * Hook that gets executed after the suite has ended
      * @param {Object} suite suite details

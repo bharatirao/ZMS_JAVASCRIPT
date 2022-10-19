@@ -1,0 +1,261 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666163971521' stop='1666164020336'>
+    <name>Generate Normal Tickets</name>
+    <title>Generate Normal Tickets</title>
+    <test-cases>
+        <test-case start='1666163971791' status='broken' stop='1666163988036'>
+            <name>zoo mgmt login</name>
+            <title>zoo mgmt login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='6ed8afc9-f5f8-4993-9605-2ce7cefb8aa1-attachment.mp4' type='video/mp4' size='133'/>
+            </attachments>
+            <failure>
+                <message>unknown error: net::ERR_NAME_NOT_RESOLVED
+                  (Session info: chrome=106.0.5249.119)</message>
+                <stack-trace>unknown error: unknown error: net::ERR_NAME_NOT_RESOLVED
+                  (Session info: chrome=106.0.5249.119)
+                    at getErrorFromResponseBody (C:\Users\BHARATI\OneDrive\Desktop\WEBDRIVERIO\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (C:\Users\BHARATI\OneDrive\Desktop\WEBDRIVERIO\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Browser.wrapCommandFn (C:\Users\BHARATI\OneDrive\Desktop\WEBDRIVERIO\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Browser.wrapCommandFn (C:\Users\BHARATI\OneDrive\Desktop\WEBDRIVERIO\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Context.&lt;anonymous> (C:\Users\BHARATI\OneDrive\Desktop\WEBDRIVERIO\test\specs\ZooTestScript1.js:5:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666163988129' status='passed' stop='1666163988363'>
+            <name>login validation</name>
+            <title>login validation</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666163988383' status='pending' stop='1666163988383'>
+            <name>count verification</name>
+            <title>count verification</title>
+            <labels/>
+            <parameters>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666163988390' status='broken' stop='1666163998611'>
+            <name>Normal Tickets</name>
+            <title>Normal Tickets</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='9d6415ff-230e-4804-8025-e7fe900ba56a-attachment.mp4' type='video/mp4' size='108'/>
+            </attachments>
+            <failure>
+                <message>Can't call click on element with selector "//div[@class='sidebar-menu']//ul[@id='menu']//a//span[text()='Normal Ticket']" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "//div[@class='sidebar-menu']//ul[@id='menu']//a//span[text()='Normal Ticket']" because element wasn't found
+                    at implicitWait (C:\Users\BHARATI\OneDrive\Desktop\WEBDRIVERIO\node_modules\@wdio\runner\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\BHARATI\OneDrive\Desktop\WEBDRIVERIO\node_modules\@wdio\runner\node_modules\webdriverio\build\middlewares.js:20:29)
+                    at async Element.wrapCommandFn (C:\Users\BHARATI\OneDrive\Desktop\WEBDRIVERIO\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Context.&lt;anonymous> (C:\Users\BHARATI\OneDrive\Desktop\WEBDRIVERIO\test\specs\ZooTestScript1.js:46:10)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666163998615' status='broken' stop='1666164008992'>
+            <name>Add Ticket</name>
+            <title>Add Ticket</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='70e2f80c-beff-495f-923a-aa211a56e1e9-attachment.mp4' type='video/mp4' size='104'/>
+            </attachments>
+            <failure>
+                <message>Can't call click on element with selector "//div[@class='sidebar-menu']//ul[@class='metismenu']//ul[@class='collapse in']//a[text()='Add Ticket']" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "//div[@class='sidebar-menu']//ul[@class='metismenu']//ul[@class='collapse in']//a[text()='Add Ticket']" because element wasn't found
+                    at implicitWait (C:\Users\BHARATI\OneDrive\Desktop\WEBDRIVERIO\node_modules\@wdio\runner\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\BHARATI\OneDrive\Desktop\WEBDRIVERIO\node_modules\@wdio\runner\node_modules\webdriverio\build\middlewares.js:20:29)
+                    at async Element.wrapCommandFn (C:\Users\BHARATI\OneDrive\Desktop\WEBDRIVERIO\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Context.&lt;anonymous> (C:\Users\BHARATI\OneDrive\Desktop\WEBDRIVERIO\test\specs\ZooTestScript1.js:60:8)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666164009004' status='broken' stop='1666164019392'>
+            <name>Add Ticket Details</name>
+            <title>Add Ticket Details</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='0dbd0eec-bfa1-470a-9ded-4af37801929e-attachment.mp4' type='video/mp4' size='112'/>
+            </attachments>
+            <failure>
+                <message>Can't call setValue on element with selector "//input[@id='visitorname']" because element wasn't found</message>
+                <stack-trace>Error: Can't call setValue on element with selector "//input[@id='visitorname']" because element wasn't found
+                    at implicitWait (C:\Users\BHARATI\OneDrive\Desktop\WEBDRIVERIO\node_modules\@wdio\runner\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\BHARATI\OneDrive\Desktop\WEBDRIVERIO\node_modules\@wdio\runner\node_modules\webdriverio\build\middlewares.js:20:29)
+                    at async Element.wrapCommandFn (C:\Users\BHARATI\OneDrive\Desktop\WEBDRIVERIO\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Context.&lt;anonymous> (C:\Users\BHARATI\OneDrive\Desktop\WEBDRIVERIO\test\specs\ZooTestScript1.js:67:8)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666164019501' status='broken' stop='1666164019950'>
+            <name>Add Visitor verification</name>
+            <title>Add Visitor verification</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='5bccb47a-9143-45a8-bb87-454c7fb92a38-attachment.mp4' type='video/mp4' size='118'/>
+            </attachments>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=106.0.5249.119)</message>
+                <stack-trace>no such window: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=106.0.5249.119)
+                    at getErrorFromResponseBody (C:\Users\BHARATI\OneDrive\Desktop\WEBDRIVERIO\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (C:\Users\BHARATI\OneDrive\Desktop\WEBDRIVERIO\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Browser.wrapCommandFn (C:\Users\BHARATI\OneDrive\Desktop\WEBDRIVERIO\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Browser.$ (C:\Users\BHARATI\OneDrive\Desktop\WEBDRIVERIO\node_modules\@wdio\runner\node_modules\webdriverio\build\commands\browser\$.js:91:17)
+                    at async Browser.wrapCommandFn (C:\Users\BHARATI\OneDrive\Desktop\WEBDRIVERIO\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Context.&lt;anonymous> (C:\Users\BHARATI\OneDrive\Desktop\WEBDRIVERIO\test\specs\ZooTestScript1.js:95:26)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666164019963' status='pending' stop='1666164019963'>
+            <name>Switch To dashboard</name>
+            <title>Switch To dashboard</title>
+            <labels/>
+            <parameters>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666164019965' status='pending' stop='1666164019965'>
+            <name>Switch Window</name>
+            <title>Switch Window</title>
+            <labels/>
+            <parameters>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666164019966' status='pending' stop='1666164019966'>
+            <name>View Ticket Details</name>
+            <title>View Ticket Details</title>
+            <labels/>
+            <parameters>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666164019967' status='pending' stop='1666164019967'>
+            <name>Delete Ticket</name>
+            <title>Delete Ticket</title>
+            <labels/>
+            <parameters>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666164020047' status='broken' stop='1666164020325'>
+            <name>Log out</name>
+            <title>Log out</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='bb53480a-1c9e-4a60-885c-68699db50b93-attachment.mp4' type='video/mp4' size='101'/>
+            </attachments>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=106.0.5249.119)</message>
+                <stack-trace>no such window: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=106.0.5249.119)
+                    at getErrorFromResponseBody (C:\Users\BHARATI\OneDrive\Desktop\WEBDRIVERIO\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (C:\Users\BHARATI\OneDrive\Desktop\WEBDRIVERIO\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Browser.wrapCommandFn (C:\Users\BHARATI\OneDrive\Desktop\WEBDRIVERIO\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Browser.$ (C:\Users\BHARATI\OneDrive\Desktop\WEBDRIVERIO\node_modules\@wdio\runner\node_modules\webdriverio\build\commands\browser\$.js:91:17)
+                    at async Browser.wrapCommandFn (C:\Users\BHARATI\OneDrive\Desktop\WEBDRIVERIO\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Context.&lt;anonymous> (C:\Users\BHARATI\OneDrive\Desktop\WEBDRIVERIO\test\specs\ZooTestScript1.js:142:22)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

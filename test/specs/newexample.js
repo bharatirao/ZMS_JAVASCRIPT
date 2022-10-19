@@ -10,10 +10,10 @@
 // }
 
 //Arrow function to generate random number
-//  randomNumber=()=>
-//  {
-//   console.log(Math.random())
-//  }
-//  randomNumber();
+ randomNumber=()=>
+ {
+  console.log(Math.random())
+ }
+ randomNumber();
 
 
